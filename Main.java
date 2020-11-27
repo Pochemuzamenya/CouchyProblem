@@ -10,13 +10,13 @@ public class Main {
          new Euler(0, 1, 0, 10) {
              @Override
              public double tochnoeZnach(double x) {
-                 return (pow(x,3)*Math.exp(pow(x,3)))/3;
+                 return (pow(x,3)*Math.exp(pow(x,3)))/3; 
 
              }
 
              @Override
              public double calculateF(double x, double y) {
-                 return 3* pow(x,2)*y+ pow(x,2)*Math.exp(pow(x,3));
+                 return 3* pow(x,2)*y+ pow(x,2)*Math.exp(pow(x,3)); 
              }
          };
     }
